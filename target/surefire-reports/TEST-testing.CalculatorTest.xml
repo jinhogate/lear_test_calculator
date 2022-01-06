@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testing.CalculatorTest" time="0.758" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jorji\eclipse-workspace\calculator\target\test-classes;C:\Users\jorji\eclipse-workspace\calculator\target\classes;C:\Users\jorji\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\jorji\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\jorji\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jorji\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jorji\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\jorji\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\jorji\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\jorji\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\jorji\.m2\repository\org\assertj\assertj-core\3.20.2\assertj-core-3.20.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\jorji\AppData\Local\Temp\surefire4546472897988095815\surefirebooter1272333901383822896.jar C:\Users\jorji\AppData\Local\Temp\surefire4546472897988095815 2021-12-26T00-58-36_436-jvmRun1 surefire14104481048067938819tmp surefire_011505035273928053181tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jorji\eclipse-workspace\calculator\target\test-classes;C:\Users\jorji\eclipse-workspace\calculator\target\classes;C:\Users\jorji\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\jorji\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\jorji\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\jorji\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jorji\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\jorji\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\jorji\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\jorji\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\jorji\.m2\repository\org\assertj\assertj-core\3.20.2\assertj-core-3.20.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jorji"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jorji\eclipse-workspace\calculator"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\jorji\AppData\Local\Temp\surefire4546472897988095815\surefirebooter1272333901383822896.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="jorji"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\jorji\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jorji\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\jorji\eclipse-workspace\calculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.11/bin/server;C:/Program Files/Java/jdk-11.0.11/bin;C:\Python38\Scripts\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Python38\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\jorji\node_modules\.bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Users\jorji\AppData\Local\Microsoft\WindowsApps;C:\Users\jorji\AppData\Roaming\npm;D:\Doc_jor\CGIInstitut\Eclipse\Maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\NetBeans 8.2\java\maven\bin;C:\Users\jorji\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\jorji\AppData\Local\Programs\Python\Python38-32\;C:\Users\jorji\GlassFish_Server\javadb\bin;C:\Users\jorji\node_modules\.bin;;C:\WINDOWS\system32;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="multiply_shouldReturnZero{int}[1]" classname="testing.CalculatorTest" time="0.285"/>
+  <testcase name="multiply_shouldReturnZero{int}[2]" classname="testing.CalculatorTest" time="0.009"/>
+  <testcase name="multiply_shouldReturnZero{int}[3]" classname="testing.CalculatorTest" time="0.008"/>
+  <testcase name="multiply_shouldReturnZero{int}[4]" classname="testing.CalculatorTest" time="0.008"/>
+  <testcase name="should_return_lenghtOfString" classname="testing.CalculatorTest" time="0.011"/>
+  <testcase name="multiply_shouldReturn_twoNumbersMultiplied" classname="testing.CalculatorTest" time="0.009"/>
+  <testcase name="should_return_additionTwoDecimals" classname="testing.CalculatorTest" time="0.008"/>
+  <testcase name="should_return_additionOfTwoNumbers{int, int, int}[1]" classname="testing.CalculatorTest" time="0.009"/>
+  <testcase name="should_return_additionOfTwoNumbers{int, int, int}[2]" classname="testing.CalculatorTest" time="0.008"/>
+  <testcase name="should_return_additionOfTwoNumbers{int, int, int}[3]" classname="testing.CalculatorTest" time="0.01"/>
+  <testcase name="testAddTwoPositivesNumbers" classname="testing.CalculatorTest" time="0.007"/>
+  <testcase name="should_always_return_five{String}[1]" classname="testing.CalculatorTest" time="0.012"/>
+  <testcase name="should_always_return_five{String}[2]" classname="testing.CalculatorTest" time="0.009"/>
+  <testcase name="should_always_return_five{String}[3]" classname="testing.CalculatorTest" time="0.006"/>
+  <testcase name="should_always_return_five{String}[4]" classname="testing.CalculatorTest" time="0.006"/>
+  <testcase name="should_always_return_five{String}[5]" classname="testing.CalculatorTest" time="0.006"/>
+  <testcase name="should_always_return_five{String}[6]" classname="testing.CalculatorTest" time="0.006"/>
+  <testcase name="should_make_twoSeconds" classname="testing.CalculatorTest" time="0.181"/>
+</testsuite>
